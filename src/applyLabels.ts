@@ -45,8 +45,8 @@ import {Label} from './getLabelsFromOwners'
       labelsAll.push(label.name)
       p.push(
         client.issues.createLabel({
-          owner: context.repo.owner,
-          repo: context.repo.repo,
+          owner: context.issue.owner,
+          repo: context.issue.repo,
           name: label.name,
           color: label.color
         }).catch(error => {
