@@ -1,6 +1,6 @@
-name: 'autolabeler-codeowners'
+name: 'autolabeler-codeowners-v2'
 description: 'Automatically label PRs based on CODEOWNERS'
-author: 'Pratik Mallya'
+author: 'Pratik Mallya v2'
 inputs:
   githubToken:
     description: 'Github Oauth Token for the repo'
