@@ -1,7 +1,5 @@
-.. image:: https://github.com/pratikmallya/autolabeler-codeowners/workflows/build-test/badge.svg?branch=master
-
-autolabeler-codeowners
-======================
+autolabeler-codeowners-v2
+=========================
 
 Adds labels to PR's based on ``CODEOWNERS``. Useful in monorepos where there
 can be a ton of concurrent users and it might get hard to find the
@@ -24,7 +22,7 @@ the name ``githubToken``.
       steps:
       - uses: actions/checkout@v1
       - name: Add CODEOWNER Label To PR
-        uses: pratikmallya/autolabeler-codeowners@releases/v1
+        uses: ranesagar/autolabeler-codeowners-v2@releases/v1
         with:
           githubToken: ${{ secrets.githubToken }}
 
@@ -77,4 +75,4 @@ Release Process
 - push branch
 - update `Github Marketplace`_
 
-.. _Github Marketplace: https://github.com/marketplace/actions/autolabeler-codeowners
+.. _Github Marketplace: https://github.com/marketplace/actions/autolabeler-codeowners-v2
